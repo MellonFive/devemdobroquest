@@ -1,0 +1,75 @@
+html {
+  font-size: 66.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--font-color);
+  background-image: url(../images/bg-desktop.svg);
+  padding: 2rem 5rem;
+}
+
+body .image-logo {
+  width: 20rem;
+  margin-left: 7rem;
+  margin-top: 3rem;
+}
+
+.container {
+  max-width: 1100px;
+
+  display: grid;
+  grid:
+  "background-image apresentacao"
+  "background-image apresentacao"
+  "background-image apresentacao";
+  
+  margin: 4rem auto 0;
+  height: 50vh;
+}
+
+
+.container .background-image {
+  grid-area: background-image;
+}
+
+.container .background-image img {
+  height: 70vh;
+}
+
+.container .company {
+  grid-area: apresentacao;
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  margin-left: 2rem;
+}
+
+.container .company .title {
+  width: 80%;
+  font-size: 3rem;
+  color: var(--white-color-font);
+  margin-top: 3rem;
+}
+
+.container .company .description {
+  color: var(--white-color-font);
+  font-size: 1.5rem;
+  line-height: 25px;
+  font-weight: 300;
+  margin-top: 3rem;
+}
+
+.container .company .btn {
+  background-color: var(--white-color-font);
+  padding: 1.5rem 0;
+  border-radius: 20px;
+  color: var(--font-color);
+  width: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+  /* Colocar box-shadow */
+  margin-top: 3rem;
+}
