@@ -23,12 +23,11 @@ body .image-logo {
   "background-image apresentacao"
   "background-image apresentacao"
   "background-image apresentacao"
-  "rodape rodape";
+  "background-image rodape";
   
   margin: 4rem auto 0;
   height: 50vh;
 }
-
 
 .container .background-image {
   grid-area: background-image;
@@ -76,13 +75,21 @@ body .image-logo {
 }
 
 footer {
-  grid-area: rodape;
 
   background-color: blue;
-  width: 50%;
+  width: 100%;
+}
+
+footer .social-media {
+  border: 1px solid red;
+  margin-top: 4rem;
+  width: 100px;
 }
 
 footer .social-media {
   display: flex;
-  border: 1px solid red;
+}
+
+footer .social-media a img {
+  width: 50px;
 }
