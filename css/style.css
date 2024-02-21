@@ -70,6 +70,6 @@ body .image-logo {
   width: 200px;
   text-align: center;
   font-size: 1.5rem;
-  /* Colocar box-shadow */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
   margin-top: 3rem;
 }
