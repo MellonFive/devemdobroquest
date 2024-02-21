@@ -85,7 +85,7 @@ footer .social-media {
 footer .social-media {
   display: flex;
   width: 100%;
-  gap: 1.5rem;
+  gap: 2rem;
   height: 100%;
   align-items: flex-end;
   justify-content: flex-end;
