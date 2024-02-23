@@ -10,7 +10,7 @@ body {
 }
 
 body .image-logo {
-  width: 20rem;
+  width: 200px;
   margin-left: 7rem;
   margin-top: 3rem;
 }
@@ -19,18 +19,23 @@ body .image-logo {
   max-width: 1100px;
 
   display: grid;
-  grid:
+  /* grid:
   "background-image apresentacao"
   "background-image apresentacao"
   "background-image apresentacao"
   "background-image rodape";
+  */
+  place-items: center; 
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
   
-  margin: 4rem auto 0;
+  margin: 3rem auto 0;
   height: 50vh;
 }
 
 .container .background-image {
-  grid-area: background-image;
+  width: 100%;
 }
 
 .container .background-image img {
@@ -38,11 +43,12 @@ body .image-logo {
 }
 
 .container .company {
-  grid-area: apresentacao;
+  /* grid-area: apresentacao; */
   
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
   margin-left: 2rem;
 }
@@ -56,8 +62,7 @@ body .image-logo {
 
 .container .company .description {
   color: var(--white-color-font);
-  font-size: 1.5rem;
-  line-height: 25px;
+  font-size: 1.3rem;
   font-weight: 300;
   margin-top: 3rem;
 }
@@ -72,25 +77,34 @@ body .image-logo {
   font-size: 1.5rem;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
   margin-top: 3rem;
+  transition: .5s all;
 }
 
-footer {
+.container .company .btn:hover {
+  background-color: var(--button-color);
+  color: var(--white-color-font);
+}
+
+.container footer {
   width: 100%;
-}
-
-footer .social-media {
-  width: 50px;
+  margin-top: 5rem;
 }
 
 footer .social-media {
   display: flex;
-  width: 100%;
-  gap: 2rem;
-  height: 100%;
-  align-items: flex-end;
+  gap: 1.5rem;
   justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
 }
 
-footer .social-media a img {
-  width: 20px;
+footer .social-media .list .social-link .social-images {
+  width: 30px;
+  transition: .5s all;
+}
+
+footer .social-media .list .social-link .social-images:hover {
+  color: #FFF;
+  transform: scale(1.3);
+/* COLOCAR HOVER PAREI AQUI! */
 }

@@ -8,3 +8,7 @@ a {
   color: var(--white-color-font);
   text-decoration: none;
 }
+
+li {
+  list-style: none;
+}
