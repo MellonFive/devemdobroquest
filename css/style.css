@@ -19,15 +19,14 @@ body .image-logo {
   max-width: 1100px;
 
   display: grid;
-  /* grid:
+  grid-template-areas:
   "background-image apresentacao"
   "background-image apresentacao"
   "background-image apresentacao"
   "background-image rodape";
-  */
+ 
   place-items: center; 
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
   gap: 2rem;
   
   margin: 3rem auto 0;
@@ -35,6 +34,8 @@ body .image-logo {
 }
 
 .container .background-image {
+  /* grid-area: background-image; */
+
   width: 100%;
 }
 
@@ -54,6 +55,9 @@ body .image-logo {
 }
 
 .container .company .title {
+  /* grid-area: apresentacao; */
+
+
   width: 80%;
   font-size: 3rem;
   color: var(--white-color-font);
@@ -61,6 +65,8 @@ body .image-logo {
 }
 
 .container .company .description {
+  /* grid-area: apresentacao; */
+
   color: var(--white-color-font);
   font-size: 1.3rem;
   font-weight: 300;
@@ -68,6 +74,8 @@ body .image-logo {
 }
 
 .container .company .btn {
+  /* grid-area: apresentacao; */
+
   background-color: var(--white-color-font);
   padding: 1.5rem 0;
   border-radius: 20px;
@@ -86,6 +94,8 @@ body .image-logo {
 }
 
 .container footer {
+  /* grid-area: rodape; */
+
   width: 100%;
   margin-top: 5rem;
 }
