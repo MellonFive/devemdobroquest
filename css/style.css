@@ -19,6 +19,7 @@ body .image-logo {
   max-width: 1100px;
 
   display: grid;
+  /* Qual o melhor propriedade para usar? */
   grid-template-areas:
   "background-image apresentacao"
   "background-image apresentacao"
@@ -26,6 +27,8 @@ body .image-logo {
   "background-image rodape";
  
   /* place-items: center;  */
+  
+  /* Qual o melhor propriedade para usar?  */
   /* grid-template-columns: repeat(2, auto); */
   gap: 2rem;
   
