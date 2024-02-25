@@ -111,12 +111,12 @@ footer .social-media {
   width: 100%;
 }
 
-footer .social-media .list .social-link .social-images {
+footer .social-media .list .social-link svg {
   width: 30px;
   transition: .5s all;
 }
 
-footer .social-media .list .social-link:hover .social-images {
+footer .social-media .list .social-link:hover svg {
   filter: invert(98%) sepia(10%) saturate(195%) hue-rotate(100deg) brightness(117%) contrast(100%);
   transform: scale(1.3);
 }
