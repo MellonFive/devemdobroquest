@@ -115,5 +115,5 @@ footer .social-media .list .social-link .social-images {
 
 footer .social-media .list .social-link:hover .social-images {
   filter: invert(98%) sepia(10%) saturate(195%) hue-rotate(100deg) brightness(117%) contrast(100%);
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
