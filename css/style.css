@@ -61,7 +61,7 @@ body .image-logo {
   grid-area: apresentacao;
 
 
-  width: 80%;
+  width: 90%;
   font-size: 3rem;
   color: var(--white-color-font);
   margin-top: 3rem;
@@ -71,7 +71,7 @@ body .image-logo {
   grid-area: apresentacao;
 
   color: var(--white-color-font);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin-top: 3rem;
 }
